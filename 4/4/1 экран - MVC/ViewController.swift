@@ -2,6 +2,9 @@ import UIKit
 
 final class ViewController: UIViewController {
     
+    @IBOutlet weak var myScrollView: UIScrollView!
+    @IBOutlet weak var contetsOfScrollView: UIView!
+    @IBOutlet weak var detailsStackView: UIStackView!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var info: UITextField!
     @IBOutlet weak var date: UITextField!
