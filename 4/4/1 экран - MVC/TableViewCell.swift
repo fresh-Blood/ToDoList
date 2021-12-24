@@ -1,13 +1,6 @@
-//
-//  TableViewCell.swift
-//  4
-//
-//  Created by Admin on 12.10.2021.
-//
-
 import UIKit
 
-class TableViewCell: UITableViewCell {
+final class TableViewCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var info: UILabel!
     @IBOutlet weak var data: UILabel!
@@ -25,8 +18,5 @@ class TableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        
     }
-
 }

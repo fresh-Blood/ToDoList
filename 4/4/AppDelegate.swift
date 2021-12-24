@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  4
-//
-//  Created by Admin on 10.10.2021.
-//
-
 import UIKit
 import CoreData
 

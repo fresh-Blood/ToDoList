@@ -1,13 +1,6 @@
-//
-//  SecondViewController.swift
-//  4
-//
-//  Created by Admin on 10.10.2021.
-//
-
 import UIKit
 
-class SecondViewController: UIViewController {
+final class SecondViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -15,6 +8,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
     }
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         self.tableView.reloadData()
     }
 }

@@ -1,19 +1,17 @@
-// Архитектура первого экрана - MVC
-
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var info: UITextField!
     @IBOutlet weak var date: UITextField!
     @IBOutlet weak var deadLine: UITextField!
-    let datePicker = UIDatePicker()
-    let datePicker2 = UIDatePicker()
-    let toolBar = UIToolbar()
-    let toolBar2 = UIToolbar()
+    private let datePicker = UIDatePicker()
+    private let datePicker2 = UIDatePicker()
+    private let toolBar = UIToolbar()
+    private let toolBar2 = UIToolbar()
     
-    func showDatePicker(datePicker:UIDatePicker, toolBar: UIToolbar, item:UITextField) {
+    private func showDatePicker(datePicker:UIDatePicker, toolBar: UIToolbar, item:UITextField) {
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.frame = CGRect(x: self.view.frame.minX, y: self.view.frame.height/3, width: self.view.frame.width, height: datePicker.bounds.height)
         toolBar.sizeToFit()
@@ -25,7 +23,7 @@ class ViewController: UIViewController {
         item.inputAccessoryView = toolBar
     }
     
-    @objc func donedatePicker(sender: UIButton!){
+    @objc private func donedatePicker(sender: UIButton!){
         let formatter = DateFormatter()
         formatter.dateStyle = .short
         formatter.timeStyle = .short
@@ -33,7 +31,7 @@ class ViewController: UIViewController {
         date.text = formatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
-    func showDatePicker2(datePicker:UIDatePicker, toolBar: UIToolbar, item:UITextField) {
+    private func showDatePicker2(datePicker:UIDatePicker, toolBar: UIToolbar, item:UITextField) {
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.frame = CGRect(x: self.view.frame.minX, y: self.view.frame.height/3, width: self.view.frame.width, height: datePicker.bounds.height)
         toolBar.sizeToFit()
@@ -45,7 +43,7 @@ class ViewController: UIViewController {
         item.inputAccessoryView = toolBar
     }
     
-    @objc func donedatePicker2(sender: UIButton!){
+    @objc private func donedatePicker2(sender: UIButton!){
         let formatter = DateFormatter()
         formatter.dateStyle = .short
         formatter.timeStyle = .short
@@ -54,7 +52,7 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    @objc func cancelDatePicker(sender: UIButton!){
+    @objc private  func cancelDatePicker(sender: UIButton!){
         self.view.endEditing(true)
     }
     

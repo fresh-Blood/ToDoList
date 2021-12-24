@@ -1,15 +1,8 @@
-//
-//  NewMissionViewModel.swift
-//  4
-//
-//  Created by Admin on 12.10.2021.
-//
-
 import Foundation
 import UIKit
 
 
-class Store {
+final class Store {
     
     private enum SettingsKeys : String {
         case addedMissions

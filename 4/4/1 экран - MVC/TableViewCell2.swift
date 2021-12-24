@@ -1,13 +1,6 @@
-//
-//  TableViewCell2.swift
-//  4
-//
-//  Created by Admin on 13.10.2021.
-//
-
 import UIKit
 
-class TableViewCell2: UITableViewCell {
+final class TableViewCell2: UITableViewCell {
 
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var info: UILabel!

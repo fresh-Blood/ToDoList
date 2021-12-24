@@ -1,15 +1,8 @@
-//
-//  Model1.swift
-//  4
-//
-//  Created by Admin on 10.10.2021.
-//
-
 import Foundation
 import UIKit
 
 
-class NewMission : NSObject, NSCoding {
+final class NewMission : NSObject, NSCoding {
     
     var name: String
     var aboutInfo: String
@@ -40,7 +33,7 @@ class NewMission : NSObject, NSCoding {
 
 }
 
-class MissionModel {
+final class MissionModel {
     
     static let shared = MissionModel()
     

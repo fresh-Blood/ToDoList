@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SQH-5O-IJc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SQH-5O-IJc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,31 +17,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите заголовок" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2a4-f1-kX6">
-                                <rect key="frame" x="10" y="130" width="394" height="34"/>
+                                <rect key="frame" x="10" y="132" width="394" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите описание " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="58h-CU-JVS">
-                                <rect key="frame" x="10" y="194" width="394" height="34"/>
+                                <rect key="frame" x="10" y="196" width="394" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите дату создания" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KqS-Om-Jxb">
-                                <rect key="frame" x="10" y="258" width="394" height="34"/>
+                                <rect key="frame" x="10" y="260" width="394" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите дедлайн " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6LK-Or-ebO">
-                                <rect key="frame" x="10" y="322" width="394" height="34"/>
+                                <rect key="frame" x="10" y="324" width="394" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50r-49-Sxd">
-                                <rect key="frame" x="122" y="413" width="170" height="70"/>
+                                <rect key="frame" x="122" y="415.5" width="170" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="FkT-Ie-dMN"/>
                                     <constraint firstAttribute="height" constant="70" id="sum-1p-8gM"/>
@@ -52,9 +52,9 @@
                                     <action selector="addNewMission:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hlv-sq-XCC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добавьте новую задачу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTr-XQ-eC9">
-                                <rect key="frame" x="113" y="65" width="189" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Новая задача" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTr-XQ-eC9">
+                                <rect key="frame" x="10" y="64" width="394" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -67,21 +67,21 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6LK-Or-ebO" secondAttribute="trailing" constant="10" id="95a-lh-Bqo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2a4-f1-kX6" secondAttribute="trailing" constant="10" id="9Vo-K4-hYX"/>
                             <constraint firstItem="50r-49-Sxd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KAz-fR-PjI"/>
-                            <constraint firstItem="LTr-XQ-eC9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="PdY-AR-CtM"/>
+                            <constraint firstItem="LTr-XQ-eC9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PdY-AR-CtM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KqS-Om-Jxb" secondAttribute="trailing" constant="10" id="TCb-Ch-cxu"/>
                             <constraint firstItem="6LK-Or-ebO" firstAttribute="top" secondItem="KqS-Om-Jxb" secondAttribute="bottom" constant="30" id="TcQ-eT-XW1"/>
                             <constraint firstItem="58h-CU-JVS" firstAttribute="top" secondItem="2a4-f1-kX6" secondAttribute="bottom" constant="30" id="TuJ-ao-y9j"/>
                             <constraint firstItem="KqS-Om-Jxb" firstAttribute="top" secondItem="58h-CU-JVS" secondAttribute="bottom" constant="30" id="WVU-GA-E0s"/>
                             <constraint firstItem="2a4-f1-kX6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ZLs-9s-EfA"/>
-                            <constraint firstItem="LTr-XQ-eC9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="g9Q-hl-jDb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LTr-XQ-eC9" secondAttribute="trailing" constant="112" id="iwZ-3k-A0Y"/>
+                            <constraint firstItem="50r-49-Sxd" firstAttribute="top" secondItem="6LK-Or-ebO" secondAttribute="bottom" constant="57.5" id="ajP-7b-EYF"/>
+                            <constraint firstItem="LTr-XQ-eC9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="g9Q-hl-jDb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LTr-XQ-eC9" secondAttribute="trailing" constant="10" id="iwZ-3k-A0Y"/>
                             <constraint firstItem="6LK-Or-ebO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="jaO-Dm-SHl"/>
-                            <constraint firstItem="50r-49-Sxd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rQ4-Ql-a0N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="58h-CU-JVS" secondAttribute="trailing" constant="10" id="rQS-ZA-5R0"/>
                             <constraint firstItem="58h-CU-JVS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="tvq-Ca-Xw7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Добавление задачи" id="gyk-ps-Wxn"/>
+                    <tabBarItem key="tabBarItem" title="Добавить" image="plus.circle" catalog="system" id="gyk-ps-Wxn"/>
                     <connections>
                         <outlet property="date" destination="KqS-Om-Jxb" id="QnQ-Q8-JWI"/>
                         <outlet property="deadLine" destination="6LK-Or-ebO" id="EJd-9R-Wc4"/>
@@ -101,14 +101,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Актуальный список задач " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdB-kh-w1p">
-                                <rect key="frame" x="102" y="75" width="211" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Все" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdB-kh-w1p">
+                                <rect key="frame" x="10" y="64" width="394" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LgQ-7e-Poh">
-                                <rect key="frame" x="20" y="146" width="374" height="642"/>
+                                <rect key="frame" x="20" y="138" width="374" height="650"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="202" id="sjO-Fb-7Zk" customClass="TableViewCell" customModule="_" customModuleProvider="target">
@@ -125,7 +125,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Описание задачи " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zo-5b-xfS">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Описание задачи " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zo-5b-xfS">
                                                     <rect key="frame" x="20" y="40" width="354" height="20.5"/>
                                                     <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -191,16 +191,16 @@
                         <viewLayoutGuide key="safeArea" id="DCy-Ve-lDZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PdB-kh-w1p" firstAttribute="leading" secondItem="DCy-Ve-lDZ" secondAttribute="leading" constant="102" id="6wg-2g-NNk"/>
-                            <constraint firstItem="PdB-kh-w1p" firstAttribute="top" secondItem="DCy-Ve-lDZ" secondAttribute="top" constant="31" id="Sfn-Bg-j7B"/>
+                            <constraint firstItem="PdB-kh-w1p" firstAttribute="leading" secondItem="DCy-Ve-lDZ" secondAttribute="leading" constant="10" id="6wg-2g-NNk"/>
+                            <constraint firstItem="PdB-kh-w1p" firstAttribute="top" secondItem="DCy-Ve-lDZ" secondAttribute="top" constant="20" id="Sfn-Bg-j7B"/>
                             <constraint firstItem="DCy-Ve-lDZ" firstAttribute="trailing" secondItem="LgQ-7e-Poh" secondAttribute="trailing" constant="20" id="V2j-Ga-7Qm"/>
                             <constraint firstItem="DCy-Ve-lDZ" firstAttribute="bottom" secondItem="LgQ-7e-Poh" secondAttribute="bottom" constant="25" id="Ya0-1C-80L"/>
-                            <constraint firstItem="DCy-Ve-lDZ" firstAttribute="trailing" secondItem="PdB-kh-w1p" secondAttribute="trailing" constant="101" id="b29-3F-tPK"/>
+                            <constraint firstItem="DCy-Ve-lDZ" firstAttribute="trailing" secondItem="PdB-kh-w1p" secondAttribute="trailing" constant="10" id="b29-3F-tPK"/>
                             <constraint firstItem="LgQ-7e-Poh" firstAttribute="leading" secondItem="DCy-Ve-lDZ" secondAttribute="leading" constant="20" id="p2P-BU-MIC"/>
                             <constraint firstItem="LgQ-7e-Poh" firstAttribute="top" secondItem="PdB-kh-w1p" secondAttribute="bottom" constant="50" id="u6r-O6-r6L"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Список текущих задач" id="Kwc-VU-4gK"/>
+                    <tabBarItem key="tabBarItem" title="Задачи" image="brain.head.profile" catalog="system" id="Kwc-VU-4gK"/>
                     <connections>
                         <outlet property="tableView" destination="LgQ-7e-Poh" id="7LF-G1-neE"/>
                     </connections>
@@ -217,16 +217,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HC-qf-RWo">
-                                <rect key="frame" x="60" y="58" width="297" height="21"/>
-                                <string key="text">Список закрытых и удалённых задач
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Закрыты или удалены " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HC-qf-RWo">
+                                <rect key="frame" x="10" y="64" width="394" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mZN-Kf-9C2">
-                                <rect key="frame" x="21" y="87" width="374" height="726"/>
+                                <rect key="frame" x="21" y="96" width="374" height="717"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" rowHeight="202" id="8kN-NJ-bNU" customClass="TableViewCell2" customModule="_" customModuleProvider="target">
@@ -309,16 +307,16 @@
                         <viewLayoutGuide key="safeArea" id="Qhu-cL-NTo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="2HC-qf-RWo" firstAttribute="leading" secondItem="Qhu-cL-NTo" secondAttribute="leading" constant="60" id="7hp-hX-WoO"/>
-                            <constraint firstItem="2HC-qf-RWo" firstAttribute="top" secondItem="Qhu-cL-NTo" secondAttribute="top" constant="14" id="Crf-ZC-OTN"/>
+                            <constraint firstItem="2HC-qf-RWo" firstAttribute="leading" secondItem="Qhu-cL-NTo" secondAttribute="leading" constant="10" id="7hp-hX-WoO"/>
+                            <constraint firstItem="2HC-qf-RWo" firstAttribute="top" secondItem="Qhu-cL-NTo" secondAttribute="top" constant="20" id="Crf-ZC-OTN"/>
                             <constraint firstItem="mZN-Kf-9C2" firstAttribute="leading" secondItem="Qhu-cL-NTo" secondAttribute="leading" constant="21" id="O3R-cG-qpA"/>
                             <constraint firstItem="mZN-Kf-9C2" firstAttribute="bottom" secondItem="Qhu-cL-NTo" secondAttribute="bottom" id="VQy-bi-Jkr"/>
-                            <constraint firstItem="Qhu-cL-NTo" firstAttribute="trailing" secondItem="2HC-qf-RWo" secondAttribute="trailing" constant="57" id="Vjj-rk-GXc"/>
+                            <constraint firstItem="Qhu-cL-NTo" firstAttribute="trailing" secondItem="2HC-qf-RWo" secondAttribute="trailing" constant="10" id="Vjj-rk-GXc"/>
                             <constraint firstItem="Qhu-cL-NTo" firstAttribute="trailing" secondItem="mZN-Kf-9C2" secondAttribute="trailing" constant="19" id="Wd5-Dz-XIF"/>
                             <constraint firstItem="mZN-Kf-9C2" firstAttribute="top" secondItem="2HC-qf-RWo" secondAttribute="bottom" constant="8" symbolic="YES" id="XUI-cJ-nLQ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Список закрытых и удаленных " id="bL0-Pn-ySs"/>
+                    <tabBarItem key="tabBarItem" title="Корзина" image="cart.badge.minus.fill" catalog="system" id="bL0-Pn-ySs"/>
                     <connections>
                         <outlet property="tableView" destination="mZN-Kf-9C2" id="YiO-tH-6UV"/>
                     </connections>
@@ -349,6 +347,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="brain.head.profile" catalog="system" width="114" height="128"/>
+        <image name="cart.badge.minus.fill" catalog="system" width="128" height="106"/>
+        <image name="plus.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

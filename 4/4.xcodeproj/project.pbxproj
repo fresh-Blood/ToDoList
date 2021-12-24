@@ -75,8 +75,6 @@
 				843A89362712DC3800A03AC2 /* AppDelegate.swift */,
 				843A89382712DC3800A03AC2 /* SceneDelegate.swift */,
 				8444502227158BB10066CEF4 /* 1 экран - MVC */,
-				8444502327158BDF0066CEF4 /* 2 экран - MVVM */,
-				8469390C2717186E0018DD92 /* 3 экран подобие VIPER */,
 				843A893C2712DC3800A03AC2 /* Main.storyboard */,
 				843A89422712DC3D00A03AC2 /* Assets.xcassets */,
 				843A89442712DC3D00A03AC2 /* LaunchScreen.storyboard */,
@@ -91,28 +89,14 @@
 			children = (
 				843A893A2712DC3800A03AC2 /* ViewController.swift */,
 				843A89512712DE3300A03AC2 /* NewMissionModel.swift */,
-			);
-			path = "1 экран - MVC";
-			sourceTree = "<group>";
-		};
-		8444502327158BDF0066CEF4 /* 2 экран - MVVM */ = {
-			isa = PBXGroup;
-			children = (
 				843A894D2712DDE700A03AC2 /* SecondViewController.swift */,
 				8444501E2715861C0066CEF4 /* TableViewCell.swift */,
 				84445020271588F50066CEF4 /* NewMissionViewModel.swift */,
-			);
-			path = "2 экран - MVVM";
-			sourceTree = "<group>";
-		};
-		8469390C2717186E0018DD92 /* 3 экран подобие VIPER */ = {
-			isa = PBXGroup;
-			children = (
 				843A894F2712DDF900A03AC2 /* ThirdViewController.swift */,
 				8469390D271719C70018DD92 /* TableViewCell2.swift */,
 				84405FD727177123007A43DD /* Presenter.swift */,
 			);
-			path = "3 экран подобие VIPER";
+			path = "1 экран - MVC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
