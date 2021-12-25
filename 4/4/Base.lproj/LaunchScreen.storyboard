@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -14,14 +14,14 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="dI2-oT-fkW">
-                                <rect key="frame" x="-29.5" y="116" width="379" height="248.5"/>
+                                <rect key="frame" x="17.666666666666657" y="243.66666666666669" width="379" height="248.66666666666669"/>
                                 <subviews>
                                     <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4vv-i9-sYE">
-                                        <rect key="frame" x="0.0" y="-2.5" width="379" height="159"/>
+                                        <rect key="frame" x="0.0" y="-1.6666666666666572" width="379" height="158.33333333333331"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="154.5" id="C1N-Ve-zlc"/>
                                             <constraint firstAttribute="width" constant="379" id="eqm-4A-ZAi"/>
@@ -30,7 +30,7 @@
                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="light"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TO DO LIST" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoE-Q6-vas">
-                                        <rect key="frame" x="0.0" y="176.5" width="379" height="72"/>
+                                        <rect key="frame" x="0.0" y="176.66666666666666" width="379" height="72"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="72" id="nXB-RM-Aha"/>
                                         </constraints>
