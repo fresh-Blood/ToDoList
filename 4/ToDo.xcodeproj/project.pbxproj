@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843A89332712DC3800A03AC2 /* 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843A89332712DC3800A03AC2 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843A89362712DC3800A03AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843A89382712DC3800A03AC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		843A893A2712DC3800A03AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		843A89342712DC3800A03AC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				843A89332712DC3800A03AC2 /* 4.app */,
+				843A89332712DC3800A03AC2 /* ToDo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		843A89322712DC3800A03AC2 /* 4 */ = {
+		843A89322712DC3800A03AC2 /* ToDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 843A894A2712DC3D00A03AC2 /* Build configuration list for PBXNativeTarget "4" */;
+			buildConfigurationList = 843A894A2712DC3D00A03AC2 /* Build configuration list for PBXNativeTarget "ToDo" */;
 			buildPhases = (
 				843A892F2712DC3800A03AC2 /* Sources */,
 				843A89302712DC3800A03AC2 /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = 4;
+			name = ToDo;
 			productName = 4;
-			productReference = 843A89332712DC3800A03AC2 /* 4.app */;
+			productReference = 843A89332712DC3800A03AC2 /* ToDo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 843A892E2712DC3800A03AC2 /* Build configuration list for PBXProject "4" */;
+			buildConfigurationList = 843A892E2712DC3800A03AC2 /* Build configuration list for PBXProject "ToDo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				843A89322712DC3800A03AC2 /* 4 */,
+				843A89322712DC3800A03AC2 /* ToDo */,
 			);
 		};
 /* End PBXProject section */
@@ -381,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		843A892E2712DC3800A03AC2 /* Build configuration list for PBXProject "4" */ = {
+		843A892E2712DC3800A03AC2 /* Build configuration list for PBXProject "ToDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				843A89482712DC3D00A03AC2 /* Debug */,
@@ -390,7 +390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		843A894A2712DC3D00A03AC2 /* Build configuration list for PBXNativeTarget "4" */ = {
+		843A894A2712DC3D00A03AC2 /* Build configuration list for PBXNativeTarget "ToDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				843A894B2712DC3D00A03AC2 /* Debug */,
