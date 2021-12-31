@@ -74,7 +74,7 @@
 			children = (
 				843A89362712DC3800A03AC2 /* AppDelegate.swift */,
 				843A89382712DC3800A03AC2 /* SceneDelegate.swift */,
-				8444502227158BB10066CEF4 /* 1 экран - MVC */,
+				8444502227158BB10066CEF4 /* MVC */,
 				843A893C2712DC3800A03AC2 /* Main.storyboard */,
 				843A89422712DC3D00A03AC2 /* Assets.xcassets */,
 				843A89442712DC3D00A03AC2 /* LaunchScreen.storyboard */,
@@ -84,7 +84,7 @@
 			path = 4;
 			sourceTree = "<group>";
 		};
-		8444502227158BB10066CEF4 /* 1 экран - MVC */ = {
+		8444502227158BB10066CEF4 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
 				843A893A2712DC3800A03AC2 /* ViewController.swift */,
@@ -96,7 +96,7 @@
 				8469390D271719C70018DD92 /* TableViewCell2.swift */,
 				84405FD727177123007A43DD /* Presenter.swift */,
 			);
-			path = "1 экран - MVC";
+			path = MVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

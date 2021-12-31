@@ -37,7 +37,7 @@ extension SecondViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
-        // зыкрыть
+        // MARK: Closing 
         let archive = UIContextualAction(style: .normal,title: "Закрыть") { [weak self] (action, view, completionHandler) in
             for (index,element) in MissionModel.shared.missions.enumerated() {
                 if index == indexPath.row {
@@ -50,7 +50,7 @@ extension SecondViewController : UITableViewDelegate, UITableViewDataSource {
         }
         archive.backgroundColor = .systemGreen
         
-        // удалить
+        // MARK: Removing
         let trash = UIContextualAction(style: .destructive,title: "Удалить") { [weak self] (action, view, completionHandler) in
             for (index,element) in MissionModel.shared.missions.enumerated() {
                 if index == indexPath.row {
