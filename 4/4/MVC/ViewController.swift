@@ -59,13 +59,24 @@ final class ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    private func setTapPolitics() {
+        let gesture = UITapGestureRecognizer(target: self,
+                                             action: #selector(tap))
+        view.addGestureRecognizer(gesture)
+    }
+    @objc private func tap() {
+        info.endEditing(true)
+        name.endEditing(true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setTapPolitics()
         showDatePicker(datePicker: datePicker, toolBar: toolBar, item: date)
         showDatePicker2(datePicker: datePicker2, toolBar: toolBar2, item: deadLine)
         print("В массиве актуальные задачи сохранены -  \(Store.addedMissions ?? [])")
         print("В массиве удаленные или закрытые задачи сохранены - \(Store.deletedMissions ?? [])")
+        myScrollView.contentInsetAdjustmentBehavior = .always
     }
     
     @IBAction func addNewMission(_ sender: Any) {
